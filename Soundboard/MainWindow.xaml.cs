@@ -14,7 +14,7 @@ namespace Soundboard
     {
         private const string ClipFolder = @"C:\SoundEffects";
         private static readonly string[] Extensions =
-            { ".mp3", ".wav", ".m4a", ".ogg", ".flac" };
+            { ".mp3", ".wav", ".m4a", ".AAC", ".ogg", ".flac" };
 
         private readonly List<string> _deviceIds = new();
         private readonly ObservableCollection<Clip> _clips = new();
